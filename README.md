@@ -35,3 +35,7 @@
       ],
       "CheckMacValue"=> $CheckCode
     ]
+
+## 重新驗證
+
+同理，接收方只需要將參數中的 CheckMacValue 欄位移除並重新操作產生驗證碼，再予以比對是否相符即可。
